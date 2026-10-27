@@ -23,6 +23,23 @@ omarchy plugin add https://github.com/KamenDCZ/omarchy-focus-border.git --enable
 Update later with `omarchy plugin update kamendcz.focus-border`, and remove it
 with `omarchy plugin remove kamendcz.focus-border`.
 
+## Turn it off and on
+
+Omarchy switches plugins on and off itself. Both take effect immediately:
+
+```bash
+omarchy plugin disable kamendcz.focus-border
+omarchy plugin enable kamendcz.focus-border
+```
+
+You can also pick the plugin from a list with `omarchy menu plugin`.
+
+> [!NOTE]
+> `omarchy plugin disable` removes the plugin's whole entry from
+> `~/.config/omarchy/shell.json`, including your [settings](#settings).
+> After `enable` you start from the defaults again, so copy your settings
+> somewhere first if you want to keep them.
+
 ## Settings
 
 All settings are optional. Add them to the plugin's entry in the `plugins`
