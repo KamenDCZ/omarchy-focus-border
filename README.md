@@ -8,6 +8,11 @@ This [Omarchy](https://omarchy.org/) shell plugin draws a thin outline around
 the monitor that has keyboard focus. The outline moves with the focus and can
 flash briefly when it lands on another monitor, so you can see where it went.
 
+![Focus moving between two monitors, with the outline following it](assets/demo.gif)
+
+<sub>Recorded with `"width": 8` and `"flash": true`, so the outline stays
+visible at GIF size. The default outline is thinner.</sub>
+
 - Picks a color from your current theme that stands out against the
   background, and follows theme changes.
 - Never takes clicks or keyboard focus. It is drawn on top but is purely
