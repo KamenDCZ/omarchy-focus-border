@@ -10,7 +10,7 @@ flash briefly when it lands on another monitor, so you can see where it went.
 
 ![Focus moving between two monitors, with the outline following it](assets/demo.gif)
 
-<sub>Recorded with `"width": 8` and `"flash": true`, so the outline stays
+<sub>Recorded with `"width": 4` and `"flash": true`, so the outline stays
 visible at GIF size. The default outline is thinner.</sub>
 
 - Picks a color from your current theme that stands out against the
