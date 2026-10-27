@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "kamendcz.focus-border",
   "name": "Focus border",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Daniel Kamenicky",
   "license": "MIT",
   "description": "Thin outline around the monitor that has keyboard focus, so you always know where SUPER + 1..9 will switch workspaces.",
